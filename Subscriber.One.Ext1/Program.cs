@@ -49,7 +49,7 @@ namespace Subscriber.One.Ext1
                 {
                     byte[] messageBytes = e.Body.ToArray();
                     string message = Encoding.UTF8.GetString(messageBytes);
-                    Console.Write($"[{DateTime.Now}] {message}");
+                    Console.Write($"[Handler#2 {DateTime.Now}] {message}");
 
                     //to simulate long running task
                     Thread.Sleep(3000);

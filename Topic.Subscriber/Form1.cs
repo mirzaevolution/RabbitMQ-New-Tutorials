@@ -65,7 +65,9 @@ namespace Topic.Subscriber
                     }
                 default:
                     {
-                        listBoxLogsOrderAnyCompleted.Items.Add($"[{DateTime.Now}] {decodedMessage}");
+                        string orderId = e.RoutingKey.Replace("logs.order.", "").Replace(".completed","");
+                        listBoxLogsOrderAnyCompleted.Items.Add($"[{DateTime.Now} - {orderId}] {decodedMessage}");
+
 
                         break;
                     }

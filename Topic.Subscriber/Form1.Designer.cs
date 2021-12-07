@@ -64,10 +64,12 @@ namespace Topic.Subscriber
             this.listBoxLogsCustomerCreated.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBoxLogsCustomerCreated.ForeColor = System.Drawing.Color.Lime;
             this.listBoxLogsCustomerCreated.FormattingEnabled = true;
+            this.listBoxLogsCustomerCreated.HorizontalScrollbar = true;
+            this.listBoxLogsCustomerCreated.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.listBoxLogsCustomerCreated.ItemHeight = 16;
             this.listBoxLogsCustomerCreated.Location = new System.Drawing.Point(15, 95);
             this.listBoxLogsCustomerCreated.Name = "listBoxLogsCustomerCreated";
-            this.listBoxLogsCustomerCreated.Size = new System.Drawing.Size(480, 116);
+            this.listBoxLogsCustomerCreated.Size = new System.Drawing.Size(599, 116);
             this.listBoxLogsCustomerCreated.TabIndex = 4;
             // 
             // listBoxLogsCustomerUpdated
@@ -76,10 +78,11 @@ namespace Topic.Subscriber
             this.listBoxLogsCustomerUpdated.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBoxLogsCustomerUpdated.ForeColor = System.Drawing.Color.Lime;
             this.listBoxLogsCustomerUpdated.FormattingEnabled = true;
+            this.listBoxLogsCustomerUpdated.HorizontalScrollbar = true;
             this.listBoxLogsCustomerUpdated.ItemHeight = 16;
             this.listBoxLogsCustomerUpdated.Location = new System.Drawing.Point(17, 264);
             this.listBoxLogsCustomerUpdated.Name = "listBoxLogsCustomerUpdated";
-            this.listBoxLogsCustomerUpdated.Size = new System.Drawing.Size(480, 116);
+            this.listBoxLogsCustomerUpdated.Size = new System.Drawing.Size(599, 116);
             this.listBoxLogsCustomerUpdated.TabIndex = 6;
             // 
             // label3
@@ -98,10 +101,11 @@ namespace Topic.Subscriber
             this.listBoxLogsOrderAnyCompleted.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBoxLogsOrderAnyCompleted.ForeColor = System.Drawing.Color.Lime;
             this.listBoxLogsOrderAnyCompleted.FormattingEnabled = true;
+            this.listBoxLogsOrderAnyCompleted.HorizontalScrollbar = true;
             this.listBoxLogsOrderAnyCompleted.ItemHeight = 16;
             this.listBoxLogsOrderAnyCompleted.Location = new System.Drawing.Point(17, 438);
             this.listBoxLogsOrderAnyCompleted.Name = "listBoxLogsOrderAnyCompleted";
-            this.listBoxLogsOrderAnyCompleted.Size = new System.Drawing.Size(480, 116);
+            this.listBoxLogsOrderAnyCompleted.Size = new System.Drawing.Size(599, 116);
             this.listBoxLogsOrderAnyCompleted.TabIndex = 8;
             // 
             // label4
@@ -118,7 +122,7 @@ namespace Topic.Subscriber
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(509, 599);
+            this.ClientSize = new System.Drawing.Size(630, 599);
             this.Controls.Add(this.listBoxLogsOrderAnyCompleted);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.listBoxLogsCustomerUpdated);

@@ -47,7 +47,7 @@ namespace Producer.Direct
             {
                 type = "route-y";
             }
-            Console.WriteLine("Enter message, separted by ; for new message: ");
+            Console.WriteLine("Enter message, separa0ted by ; for new message: ");
             string messageStr = Console.ReadLine()?.Trim();
             Send(type, messageStr.Split(";", StringSplitOptions.RemoveEmptyEntries));
             Console.WriteLine("Press [ENTER] to quit");

@@ -48,7 +48,7 @@ namespace Subscriber.One
                 consumer.Received += (s, e) =>
                 {
                     string message = Encoding.UTF8.GetString(e.Body.ToArray());
-                    Console.Write($"[{DateTime.Now}] {message}");
+                    Console.Write($"[Handler#1 {DateTime.Now}] {message}");
                     
                     //to simulate long running task
                     Thread.Sleep(5000); 
