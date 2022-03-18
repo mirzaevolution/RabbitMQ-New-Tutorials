@@ -8,7 +8,6 @@ namespace DirectRouting.Sender
 {
     public partial class MainWindow : Window
     {
-
         private static IConnection _connection;
         private static IModel _model;
         private IBasicProperties _sharedMessageProperties;
